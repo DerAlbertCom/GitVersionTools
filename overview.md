@@ -1,4 +1,4 @@
-These extension contains the following tasks around [GitVersion](/items?itemName=gittools.gitversion)
+These extension contains the following tasks around [GitVersion](https://marketplace.visualstudio.com/items?itemName=gittools.gitversion)
 
 for build
 
