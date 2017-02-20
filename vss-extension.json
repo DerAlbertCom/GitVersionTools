@@ -2,12 +2,15 @@
     "manifestVersion": 1,
     "id": "gitversion-tools",
     "name": "Git Version Tools",
-    "version": "0.6.1",
+    "version": "0.6.2",
     "publisher": "albertweinert",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
+    ],
+    "galleryFlags": [
+        "Public"
     ],
     "description": "Tools for ",
     "categories": [
