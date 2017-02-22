@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "gitversion-tools",
     "name": "Git Version Tools",
-    "version": "0.6.2",
+    "version": "0.6.3",
     "publisher": "albertweinert",
     "targets": [
         {
@@ -12,7 +12,7 @@
     "galleryFlags": [
         "Public"
     ],
-    "description": "Tools for ",
+    "description": "Tools for using together with GitVersion",
     "categories": [
         "Build and release"
     ],

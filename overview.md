@@ -1,23 +1,21 @@
-These extension contains the following tasks around [GitVersion](https://marketplace.visualstudio.com/items?itemName=gittools.gitversion)
-
-for build
+These extension contains the following tasks around [GitVersion](https://marketplace.visualstudio.com/items?itemName=gittools.gitversion).
 
     * Ensure-TaggedBuild
 
+They can be used in build definitions.
 
 You find the source on GitHub [https://github.com/DerAlbertCom/GitVersionTools](https://github.com/DerAlbertCom/GitVersionTools)
 
 ## Ensure-TaggedBuild
 
-Ensure that the release branch (per default master) will have a build number
-without patchlevel of zero. This implies that the head commit is tagged with a version 
+Ensures that the release branch (per default master) will have a build number
+without additional commits. This implies that the head commit must be tagged with a version 
 number.
 
-Also, it ensure that other branches like develop must have patchlevel > 0, so that
+It ensures also that other branches like develop must have a commit count > 0, so that
 a develop build won't get the same version number.
 
-This helps to avoid wrongly run builds which may create releases or nuget packages with wrong version
-numbers. 
-
+This helps to avoid build wrong Version number for builds, nuget packages and releases if
+someone forgot to correctly tag a commit.
 
 
