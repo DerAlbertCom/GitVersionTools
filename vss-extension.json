@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "gitversion-tools",
     "name": "Git Version Tools",
-    "version": "0.6.3",
+    "version": "0.6.4",
     "publisher": "albertweinert",
     "targets": [
         {
@@ -22,6 +22,10 @@
     "files": [
         {
             "path": "Ensure-TaggedBuild"
+        },
+        {
+            "path": "VstsTaskSdk/0.11.0",
+            "packagePath": "ensure-tagged-build/ps_modules/VstsTaskSdk"
         }
     ],
     "content": {
@@ -37,7 +41,8 @@
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "Ensure-TaggedBuild"
+                "name": "Ensure-TaggedBuild",
+                "icon": "Ensure-TaggedBuild/security-guard-sympbol.png"
             }
         }
     ]
