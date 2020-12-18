@@ -8,8 +8,8 @@
     "author": "Albert Weinert",
     "version": {
         "Major": 0,
-        "Minor": 2,
-        "Patch": 0
+        "Minor": 6,
+        "Patch": 5
     },
     "visibility": [
         "Build"
@@ -26,7 +26,7 @@
         }
     ],
     "execution": {
-        "PowerShell": {
+        "PowerShell3": {
             "target": "Ensure-TaggedBuild.ps1",
              "argumentFormat": "$(masterBranch)"
         }

@@ -1,1 +1,5 @@
+.vscode
 *.vsix
+**/ps_modules
+VstsTaskSdk/**
+.DS_Store

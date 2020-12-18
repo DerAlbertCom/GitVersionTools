@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "gitversion-tools",
     "name": "Git Version Tools",
-    "version": "0.6.4",
+    "version": "0.6.5",
     "publisher": "albertweinert",
     "targets": [
         {
@@ -17,7 +17,7 @@
         "Build and release"
     ],
     "icons": {
-        "default": "albert.png"
+        "default": "images/fa-git.png"
     },
     "files": [
         {
@@ -42,7 +42,7 @@
             ],
             "properties": {
                 "name": "Ensure-TaggedBuild",
-                "icon": "Ensure-TaggedBuild/security-guard-sympbol.png"
+                "icon": "images/fa-git-branch.png"
             }
         }
     ]
