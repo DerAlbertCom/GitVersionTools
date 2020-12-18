@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "gitversion-tools",
     "name": "Git Version Tools",
-    "version": "0.6.7",
+    "version": "0.6.8",
     "publisher": "albertweinert",
     "targets": [
         {
@@ -25,7 +25,7 @@
         },
         {
             "path": "VstsTaskSdk/0.11.0",
-            "packagePath": "ensure-tagged-build/ps_modules/VstsTaskSdk"
+            "packagePath": "Ensure-TaggedBuild/ps_modules/VstsTaskSdk"
         }
     ],
     "content": {
