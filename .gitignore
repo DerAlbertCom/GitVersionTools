@@ -1,4 +1,4 @@
-.vscode
-*.vsix
-**/ps_modules
-.DS_Store
+tasks/**/*.js
+tasks/**/*.log
+node_modules
+.taskkey

@@ -1,0 +1,35 @@
+{
+  "name": "gitversiontools",
+  "version": "1.0.0",
+  "description": "Ensures that the release branch (per default master) will have a build number without additional commits. This implies that the head commit must be tagged with a version number.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "watch": "tsc -watch",
+    "test": "jest --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerAlbertCom/GitVersionTools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerAlbertCom/GitVersionTools/issues"
+  },
+  "homepage": "https://github.com/DerAlbertCom/GitVersionTools#readme",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^16.0.0",
+    "@types/q": "^1.5.5",
+    "jest": "^27.5.1",
+    "sync-request": "^6.1.0",
+    "typescript": "^4.6.2"
+  }
+}

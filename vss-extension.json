@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "gitversion-tools",
     "name": "Git Version Tools",
-    "version": "0.6.8",
+    "version": "0.7.0",
     "publisher": "albertweinert",
     "targets": [
         {
@@ -14,18 +14,15 @@
     ],
     "description": "Tools for using together with GitVersion",
     "categories": [
-        "Build and release"
+        "Build and release",
+        "Azure Pipelines"
     ],
     "icons": {
-        "default": "images/fa-git.png"
+        "default": "images/security-gard-symbol.png"
     },
     "files": [
         {
-            "path": "Ensure-TaggedBuild"
-        },
-        {
-            "path": "VstsTaskSdk/0.11.0",
-            "packagePath": "Ensure-TaggedBuild/ps_modules/VstsTaskSdk"
+            "path": "tasks/Ensure-TaggedBuild"
         }
     ],
     "content": {
