@@ -2,3 +2,4 @@ tasks/**/*.js
 tasks/**/*.log
 node_modules
 .taskkey
+*.vsix

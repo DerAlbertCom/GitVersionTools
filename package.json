@@ -1,6 +1,6 @@
 {
   "name": "gitversiontools",
-  "version": "1.0.0",
+  "version": "0.7.0",
   "description": "Ensures that the release branch (per default master) will have a build number without additional commits. This implies that the head commit must be tagged with a version number.",
   "main": "index.js",
   "scripts": {

@@ -23,14 +23,6 @@
             "defaultValue": "master",
             "required": false,
             "helpMarkDown": "The name of the branch which is the release branch, default is master"
-        },
-        {
-            "name": "samplestring",
-            "type": "string",
-            "label": "Release Branch",
-            "defaultValue": "foo",
-            "required": false,
-            "helpMarkDown": "The name of the branch which is the release branch, default is master"
         }
     ],
     "execution": {

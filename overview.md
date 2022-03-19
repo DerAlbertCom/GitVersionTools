@@ -1,4 +1,4 @@
-These extension contains the following tasks around [GitVersion](https://marketplace.visualstudio.com/items?itemName=gittools.gitversion).
+These extension contains the following tasks around [GitVersion](https://marketplace.visualstudio.com/items?itemName=gittools.gittools).
 
     * Ensure-TaggedBuild
 
@@ -17,5 +17,7 @@ a develop build won't get the same version number.
 
 This helps to avoid build wrong Version number for builds, nuget packages and releases if
 someone forgot to correctly tag a commit.
+
+You must run the the Execute Task from the GitVersion GitTools first, before running this tasks.
 
 

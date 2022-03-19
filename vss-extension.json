@@ -18,7 +18,7 @@
         "Azure Pipelines"
     ],
     "icons": {
-        "default": "images/security-gard-symbol.png"
+        "default": "images/security-guard-symbol.png"
     },
     "files": [
         {
