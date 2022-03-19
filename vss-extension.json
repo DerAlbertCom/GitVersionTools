@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "gitversion-tools",
     "name": "Git Version Tools",
-    "version": "0.7.0",
+    "version": "0.7.3",
     "publisher": "albertweinert",
     "targets": [
         {

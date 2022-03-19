@@ -9,8 +9,9 @@
     "version": {
         "Major": 0,
         "Minor": 7,
-        "Patch": 0
+        "Patch": 3
     },
+    "minimumAgentVersion": "2.144.0",
     "visibility": [
         "Build"
     ],
@@ -26,7 +27,7 @@
         }
     ],
     "execution": {
-        "Node14" : {
+        "Node10" : {
             "target" : "index.js",
             "argumentFormat": "$(masterBranch)"
         }
