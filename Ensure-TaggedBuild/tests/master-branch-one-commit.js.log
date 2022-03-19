@@ -1,0 +1,125 @@
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_MASTERBRANCH
+##vso[task.debug]loaded 1
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]Build.SourceBranchName=master
+##vso[task.debug]GitVersion.CommitsSinceVersionSource=1
+##vso[task.debug]GitVersion.SemVer=undefined
+##vso[task.debug]masterBranch=master
+currentBranch master
+commits 1
+masterBranch master
+Ensuring that tagged current branch is master, they are 1 commits after version source, the release branch is set to master
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]You can't build master with commits count of 1
+##vso[task.complete result=Failed;]You can't build master with commits count of 1
+
+STDERR: You must a least tag with a higher version than undefined
+git tag NEWVERSION
+git push origin master --tags
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_MASTERBRANCH
+##vso[task.debug]loaded 1
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]Build.SourceBranchName=master
+##vso[task.debug]GitVersion.CommitsSinceVersionSource=1
+##vso[task.debug]GitVersion.SemVer=undefined
+##vso[task.debug]masterBranch=master
+currentBranch master
+commits 1
+masterBranch master
+Ensuring that tagged current branch is master, they are 1 commits after version source, the release branch is set to master
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]You can't build master with commits count of 1
+##vso[task.complete result=Failed;]You can't build master with commits count of 1
+
+STDERR: You must a least tag with a higher version than undefined
+git tag NEWVERSION
+git push origin master --tags
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_MASTERBRANCH
+##vso[task.debug]loaded 1
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]Build.SourceBranchName=master
+##vso[task.debug]GitVersion.CommitsSinceVersionSource=1
+##vso[task.debug]GitVersion.SemVer=undefined
+##vso[task.debug]masterBranch=master
+currentBranch master
+commits 1
+masterBranch master
+Ensuring that tagged current branch is master, they are 1 commits after version source, the release branch is set to master
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]You can't build master with commits count of 1
+##vso[task.complete result=Failed;]You can't build master with commits count of 1
+
+STDERR: You must a least tag with a higher version than undefined
+git tag NEWVERSION
+git push origin master --tags
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_MASTERBRANCH
+##vso[task.debug]loaded 1
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]Build.SourceBranchName=master
+##vso[task.debug]GitVersion.CommitsSinceVersionSource=1
+##vso[task.debug]GitVersion.SemVer=undefined
+##vso[task.debug]masterBranch=master
+currentBranch master
+commits 1
+masterBranch master
+Ensuring that tagged current branch is master, they are 1 commits after version source, the release branch is set to master
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]You can't build master with commits count of 1
+##vso[task.complete result=Failed;]You can't build master with commits count of 1
+
+STDERR: You must a least tag with a higher version than undefined
+git tag NEWVERSION
+git push origin master --tags
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_MASTERBRANCH
+##vso[task.debug]loaded 1
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]Build.SourceBranchName=master
+##vso[task.debug]GitVersion.CommitsSinceVersionSource=1
+##vso[task.debug]GitVersion.SemVer=undefined
+##vso[task.debug]masterBranch=master
+currentBranch master
+commits 1
+masterBranch master
+Ensuring that tagged current branch is master, they are 1 commits after version source, the release branch is set to master
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]You can't build master with commits count of 1
+##vso[task.complete result=Failed;]You can't build master with commits count of 1
+
+STDERR: You must a least tag with a higher version than undefined
+git tag NEWVERSION
+git push origin master --tags
+

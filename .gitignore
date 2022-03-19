@@ -1,4 +1,4 @@
-tasks/**/*.js
+/**/*.js
 tasks/**/*.log
 node_modules
 .taskkey

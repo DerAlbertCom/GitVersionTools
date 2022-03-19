@@ -22,7 +22,7 @@
     },
     "files": [
         {
-            "path": "tasks/Ensure-TaggedBuild"
+            "path": "Ensure-TaggedBuild"
         }
     ],
     "content": {
