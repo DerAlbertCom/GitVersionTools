@@ -1,12 +1,20 @@
 {
   "name": "gitversiontools",
-  "version": "0.7.0",
+  "version": "0.7.7",
   "description": "Ensures that the release branch (per default master) will have a build number without additional commits. This implies that the head commit must be tagged with a version number.",
   "main": "index.js",
   "scripts": {
     "compile": "tsc",
     "watch": "tsc -watch",
-    "test": "jest --forceExit"
+    "test": "jest --forceExit",
+    "images:copy" : "cp -r ./images ./dist/azure/images",
+    "task:copy" : "cp ./tasks/Ensure-TaggedBuild/task.json ./dist/azure/Ensure-TaggedBuild",
+    "build:azure": "webpack --config webpack.config.js --env agent=azure",
+    "compress:azure": "npm run build:azure -- --env task=compress",
+    "publish:azure": "tfx extension publish --root ./dist/azure --no-wait-validation --auth-type pat",
+    "create:azure": "tfx extension create --root ./dist/azure --manifest-globs vss-extension.json",
+    "release" : "npm run build:azure && npm run compress:azure && npm run images:copy && npm run task:copy && npm run create:azure"
+
   },
   "repository": {
     "type": "git",
@@ -29,7 +37,12 @@
     "@types/node": "^16.0.0",
     "@types/q": "^1.5.5",
     "jest": "^27.5.1",
+    "replace-in-file-webpack-plugin": "^1.0.6",
     "sync-request": "^6.1.0",
-    "typescript": "^4.6.2"
+    "tfx-cli": "^0.11.0",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
   }
 }

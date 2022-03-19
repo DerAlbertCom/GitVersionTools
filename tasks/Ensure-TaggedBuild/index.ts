@@ -1,11 +1,11 @@
-import * as tl from 'azure-pipelines-task-lib/task';
+import tl = require('azure-pipelines-task-lib/task');
 
 const INPUT_MasterBranch = 'masterBranch';
 const VAR_SourceBranchName = 'Build.SourceBranchName';
 const VAR_CommitsSinceVersion = 'GitVersion.CommitsSinceVersionSource';
 const VAR_CurrentVersion = 'GitVersion.SemVer';
 
-async function run() {
+function run() {
     try {
         const currentBranch = tl.getVariable(VAR_SourceBranchName);
         const commits = tl.getVariable(VAR_CommitsSinceVersion);
